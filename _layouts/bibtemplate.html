@@ -22,10 +22,13 @@ pre{
 </style>
 
 
-<div class="text-justify">{{reference}}</div>
-
+<div class="text-justify">
+<!-- {{reference}}</div> -->
+<!-- https://www.w3schools.com/icons/fontawesome_icons_webapp.asp -->
 <!-- You can use the below to make your name bold -->
-<!-- {{reference | replace_first: 'Bryngelson, S. H.', '<b>Bryngelson, S. H.</b>' | replace_first: 'Bryngelson, S.', '<b>Bryngelson, S.</b>' }}</div> -->
+{{reference | replace_first: 'Abbate, G.', '<u>Abbate, G.</u>'}}</div>
+<!-- {{reference | replace_first: 'Abbate, G.', '<b>Abbate, G.</b>' | replace_first: 'Abbate, G.', '<b>Abbate, G.</b>' }}</div> -->
+<!-- {{reference | replace_first: 'Abbate, G.', '<p style="font-weight: 100;">Abbate, G.</p>' | replace_first: 'Abbate, G.', '<p style="font-weight: 100;">Abbate, G.</p>' }}</div> -->
 
 {% assign bibtest = false %}
 {% if entry.file %}
@@ -38,7 +41,7 @@ pre{
 {% endif %}
 
 {% if bibtest %}
-<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+<a href="{{ site.url }}{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank"><button class="btn btn-success btm-sm"><i class="fa fa-file-pdf-o"></i>PDF</button></a>
 {% endif %}
 
 {% if entry.doi %}
@@ -47,6 +50,14 @@ pre{
 {% else %}
 <a href="{{ entry.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
 {% endif %}
+{% endif %}
+
+{% if entry.video %}
+<a href="{{ entry.video }}" target="_blank"><button class="btn btn-info btm-sm">VIDEO</button></a>
+{% endif %}
+
+{% if entry.info %}
+<a href="{{ entry.info }}" target="_blank"><button class="btn btn-light btm-sm">INFO</button></a>
 {% endif %}
 
 {% if entry.type == 'unpublished' or entry.type == 'article' or  entry.type == 'thesis' or entry.type == 'inproceedings' or entry.type == 'report' %}

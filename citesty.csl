@@ -608,7 +608,7 @@
         <!-- Other types are italicized based on presence of container-title.
              Assume that review and review-book are published in periodicals/blogs,
              not just on a web page (ex. 69) -->
-        <text variable="title"/>
+        <text variable="title" font-weight="bold"/>
       </else-if>
       <else>
         <choose>

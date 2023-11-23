@@ -5,7 +5,7 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+<!-- ### Welcome!
 
 Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
 It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
@@ -22,12 +22,11 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </center>
 </div>
 </div>
-<br/>
+<br/> -->
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now the California Institute of Technology.
-
+Researcher/Software Engineer @ IDSIA.
+I'm trying to learn as much as possible while working on many different projects.
+I dream of employing my skills to help make someone's life better. In particular, I would like to work either on rehabilitation systems or "accessible" interfaces for physically impaired people: i.e., restoring functionalities of people who have lost some; or making accessible stuff that is seldomly designed with accessibility in mind (e.g., board/video games, software, hardware of any kind, places, etc.).
+Maybe, one day, my brother and I will manage to play video games together again, as we did in our childhood :D

@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Gabriele Abbate
+email: gabriele.abbate@idsia.ch
+description: Webpage of Gabriele Abbate
 baseurl: ""
 url: ""
 
@@ -12,28 +12,28 @@ url: ""
 
 # Footer info
 affiliation: >
-    Richard Feynman<br/>
-    Professor of Physics<br/>
-    California Institute of Technology
+    Gabriele Abbate<br/>
+    Research/Software Engineer<br/>
+    Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA, USI-SUPSI)
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  University Campus USI-SUPSI<br/>
+  Via la Santa 1, Lugano<br/>
+  6900, Switzerland
 
 contact: >
-    <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-    <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+    <a href="mailto:gabriele.abbate@supsi.ch" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Gabriele via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
-  - name: research
+  # - name: talks
+  # - name: research
   - name: software
-  - name: team
-  - name: teaching
+  - name: news
+  # - name: team
+  # - name: teaching
 
 include:
   - .htaccess
@@ -63,9 +63,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Doe
-  first_name: [John]
-
+  last_name: Abbate
+  first_name: [Gabriele]
   style: citesty
   locale: en
 
