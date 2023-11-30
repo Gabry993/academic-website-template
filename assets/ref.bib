@@ -9,7 +9,6 @@
   file={abbate2021pointing.pdf},
   abstract={We present a system for interaction between co-located humans and mobile robots, which uses pointing gestures sensed by a wrist-mounted IMU. The operator begins by pointing, for a short time, at a moving robot. The system thus simultaneously determines: that the operator wants to interact; the robot they want to interact with; and the relative pose among the two. Then, the system can reconstruct pointed locations in the robot's own reference frame, and provide real-time feedback about them so that the user can adapt to misalignments. We discuss the challenges to be solved to implement such a system and propose practical solutions, including variants for fast flying robots and slow ground robots. We report different experiments with real robots and untrained users, validating the individual components and the system as a whole.},
   video={https://www.youtube.com/embed/-Eroidxx9sY?si=MuZBG5ogLqvOBzMR},
-  info={https://www.youtube.com/embed/-Eroidxx9sY?si=MuZBG5ogLqvOBzMR},
 }
 
 @inproceedings{abbate2022pointit,
@@ -21,6 +20,7 @@
   organization={IEEE},
   doi={10.1109/HRI53351.2022.9889486},
   file={abbate2022pointit.pdf},
+  info={https://github.com/Gabry993/pointing-user-interface-hri},
   abstract={We introduce PointIt, a toolkit for the Robot Operating System (ROS2) to build human-robot interfaces based on pointing gestures sensed by a wrist-worn Inertial Measurement Unit, such as a smartwatch. We release the software as open-source with MIT license; docker images and exhaustive instructions simplify its usage in simulated and real-world deployments.}
 }
 
@@ -33,6 +33,7 @@
   organization={IEEE},
   doi={10.1109/HRI53351.2022.9889380},
   file={guzzi2022interacting.pdf},
+  video={https://idsia-robotics.github.io/pointing/files/videos/guzzi2022demo.mp4},
   abstract={We present an interactive demonstration where users are immersed in a virtual reality simulation of a logistic automation system. Using pointing gestures sensed by wrist-worn inertial measurement unit, users select defective packages transported on conveyor belts. The demonstration allows users to experience a novel way to interact with automation systems, and shows an effective application of virtual reality for human-robot interaction studies.}
 }
 
@@ -59,6 +60,7 @@
   publisher={Elsevier},
   doi={10.1016/j.patrec.2021.06.004},
   file={can2021semantic.pdf},
+  info={https://github.com/idsia-robotics/RandLA-Net-pytorch},
   abstract={We introduce a new outdoor urban 3D pointcloud dataset, covering a total area of 2.7 km 2, sampled from three Swiss cities with different characteristics. The dataset is manually annotated for semantic segmentation with per-point labels, and is built using photogrammetry from images acquired by multirotors equipped with high-resolution cameras. In contrast to datasets acquired with ground LiDAR sensors, the resulting point clouds are uniformly dense and complete, and are useful to disparate applications, including autonomous driving, gaming and smart city planning. As a benchmark, we report quantitative results of PointNet++, an established point-based deep 3D semantic segmentation model; on this model, we additionally study the impact of using different cities for model generalization.}
 }
 
@@ -83,6 +85,8 @@
   organization={IEEE},
   doi={10.1109/HRI.2019.8673020},
   file={gromov2019video.pdf},
+  video={https://www.youtube.com/watch?v=yafy-HZMk_U},
+  award={hri2019_award.jpg},
   abstract={We propose a system to control robots in the users proximity with pointing gestures-a natural device that people use all the time to communicate with each other. Our system has two requirements: first, the robot must be able to reconstruct its own motion, e.g. by means of visual odometry; second, the user must wear a wristband or smartwatch with an inertial measurement unit. Crucially, the robot does not need to perceive the user in any way. The resulting system is widely applicable, robust, and intuitive to use.}
 }
 
@@ -95,6 +99,7 @@
   organization={IEEE},
   doi={10.1109/CASE49997.2022.9926448},
   file={abbate2022selecting.pdf},
+  video={https://www.youtube.com/watch?v=fEnPEXPlVIM},
   abstract={We introduce an intuitive pointing-based interface to select objects moving on a system of conveyor belts. The interface has minimal sensing requirements, as the operator only needs to wear an Inertial Measurement Unit on the wrist (e.g., a smartwatch). LED strips provide the required visual feedback to precisely point to the objects and select them. We test the proposed approach in three environments of different complexity. Experiments compare our approach with a graphical interface where the user clicks on packages with a mouse; quantitative results show that our interface compares favorably, especially in difficult scenarios involving many packages moving fast.}
 }
 
@@ -113,5 +118,6 @@
   publisher={North-Holland},
   doi={10.1016/j.robot.2023.104568},
   file={abbate2023self.pdf},
+  video={https://www.youtube.com/watch?v=mdZDIsr5tcU},
   abstract={A service robot can provide a smoother interaction experience if it has the ability to proactively detect whether a nearby user intends to interact, in order to adapt its behavior e.g. by explicitly showing that it is available to provide a service. In this work, we propose a learning-based approach to predict the probability that a human user will interact with a robot before the interaction actually begins; the approach is self-supervised because after each encounter with a human, the robot can automatically label it depending on whether it resulted in an interaction or not. We explore different classification approaches, using different sets of features considering the pose and the motion of the user. We validate and deploy the approach in three scenarios. The first collects 3442 natural sequences (both interacting and non-interacting) representing employees in an office break area: a real-world, challenging setting, where we consider a coffee machine in place of a service robot. The other two scenarios represent researchers interacting with service robots (200 and 72 sequences, respectively). Results show that, even in challenging real-world settings, our approach can learn without external supervision, and can achieve accurate classification (i.e. AUROC greater than 0.9) of the user’s intention to interact with an advance of more than 3 s before the interaction actually occurs.}
 }

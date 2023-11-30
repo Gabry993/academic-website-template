@@ -24,9 +24,10 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 </div>
 <br/> -->
 
-### About me
+### Hello there!
 
-Researcher/Software Engineer @ IDSIA.
-I'm trying to learn as much as possible while working on many different projects.
+I'm Gabriele, currently Researcher and Software Engineer @ IDSIA.
+Here I'm trying to learn as much as possible while working on many different projects. Check my <a href="{{ site.url }}{{ site.baseurl }}/news">news list</a> to see what I've been up to :)
+
 I dream of employing my skills to help make someone's life better. In particular, I would like to work either on rehabilitation systems or "accessible" interfaces for physically impaired people: i.e., restoring functionalities of people who have lost some; or making accessible stuff that is seldomly designed with accessibility in mind (e.g., board/video games, software, hardware of any kind, places, etc.).
 Maybe, one day, my brother and I will manage to play video games together again, as we did in our childhood :D

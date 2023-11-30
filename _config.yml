@@ -14,7 +14,7 @@ url: ""
 affiliation: >
     Gabriele Abbate<br/>
     Research/Software Engineer<br/>
-    Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA, USI-SUPSI)
+    Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA) </br>USI-SUPSI
 
 location: >
   University Campus USI-SUPSI<br/>
@@ -30,7 +30,7 @@ nav_pages:
   - name: publications
   # - name: talks
   # - name: research
-  - name: software
+  # - name: software
   - name: news
   # - name: team
   # - name: teaching

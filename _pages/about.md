@@ -17,7 +17,8 @@ permalink: /about/
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>
   {% if member.email %}<a href="#" target="_blank" class="text-primary" data-gen-agar><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
-  {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" class="text-primary"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
+  <!-- {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank" class="text-primary"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %} -->
+  {% if member.linkedin %} <a href="{{ member.linkedin }}" target="_blank" class="text-primary"><i class="fa fa-linkedin-square fa-3x"></i></a> {% endif %}
   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank" class="text-primary"><i class="ai ai-google-scholar-square ai-3x"></i></a> {% endif %}
   {% if member.github %} <a href="{{ member.github }}" target="_blank" class="text-primary"><i class="fa fa-github-square fa-3x"></i></a> {% endif %}
   {% if member.researchgate %} <a href="{{ member.researchgate }}" target="_blank" class="text-primary"><i class="ai ai-researchgate-square ai-3x"></i></a> {% endif %}
@@ -73,7 +74,7 @@ permalink: /about/
 </div>
 {% endif %}
 
-{% if site.data.awards %}
+<!-- {% if site.data.awards %}
 <div class="jumbotron">
 ### Awards
 <ul>
@@ -82,7 +83,7 @@ permalink: /about/
 {% endfor %}
 </ul>
 </div>
-{% endif %}
+{% endif %} -->
 
 {% if site.data.people %}
 <div class="jumbotron">
